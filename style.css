@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.header{
+    background-color: #242222;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header p{
+    font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+}
+
+
+.box{
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #d4d4d4;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    text-align: justify;
+
+}
+
+footer{
+    background-color: #a8a8a8;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.parallax1{
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/28/10/56/cricket-5348882_1280.jpg);
+}
+.parallax2{
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/15/21/06/cricket-724615_1280.jpg);
+}
+
+.parallax3{
+    background-image: url(https://cdn.pixabay.com/photo/2022/02/16/04/15/cricketer-7015983_1280.jpg);
+}
+
+.parallax4{
+    background-image: url(https://cdn.pixabay.com/photo/2023/12/12/09/26/cricket-8444899_1280.jpg);
+}
+
+.parallax{
+    height: 98vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+caption{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    box-shadow: 10px 7px 7px #000000d0;
+    margin: 20px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead{
+    color: #000000;
+    background-color: #c2c2c2;
+}
+
+table, th, td {
+    border: 3px solid #000806;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+table :not(thead) tr:hover{
+    background-color: #bbe0ff;
+}
