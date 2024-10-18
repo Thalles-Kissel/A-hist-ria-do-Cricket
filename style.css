@@ -30,8 +30,8 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 40px;
-    height: 100vh;
+    padding: 10px;
+    height: 80vh;
 }
 
 .box{
@@ -39,7 +39,7 @@ body{
     font-size: 15px;
     background-color: #d4d4d4;
     padding: 20px;
-    margin: 10px;
+    margin: 7px;
     width: 60%;
     text-align: justify;
 
@@ -69,10 +69,12 @@ footer{
 }
 
 .parallax{
-    border-radius: 27px;
-    border: 7px solid#000000;
-    margin: 20px;
-    height: 90vh;
+    border-radius: 20px;
+    border: 3px solid#000000;
+    margin: 40px;
+    margin-left: 28vh;
+    width: 160vh;
+    height: 80vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,13 +113,36 @@ table :not(thead) tr:hover{
     background-color: #bbe0ff;
 }
 
-@media(max-width: 768px){
+@media(max-width: 460px){
+    .table{
+        margin: 9px;
+        font-size: 1.5vh;
+    }
+    .parallax{
+        border-radius: 20px;
+        border: 3px solid#000000;
+        margin-left: 3.5vh;
+        width: 45vh;
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        height: 70vh;
+    }
     .box{
         border-radius: 20px;
-        font-size: 15px;
+        font-size: 13px;
         background-color: #d4d4d4;
         padding: 20px;
-        margin: 15px;
+        margin: 10px;
         width: 90%;
         text-align: justify;
     
