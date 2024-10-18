@@ -34,7 +34,6 @@ body{
     height: 100vh;
 }
 
-
 .box{
     border-radius: 20px;
     font-size: 15px;
@@ -70,7 +69,10 @@ footer{
 }
 
 .parallax{
-    height: 98vh;
+    border-radius: 27px;
+    border: 7px solid#000000;
+    margin: 20px;
+    height: 90vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
